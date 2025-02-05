@@ -357,3 +357,33 @@
 }
 
 
+/* ---------------------Single Product Page Design----------------------- */
+
+.carousel-customize > .carousel-item > img {
+    height : 500px;
+    object-fit : cover;
+}
+
+.small-product {
+    opacity : 0.6;
+    cursor : pointer;
+}
+
+.small-product:hover {
+    opacity : 1;
+}
+
+.color {
+    padding : 18px;
+    margin : 0px 5px;
+    cursor : pointer;
+    border-radius : 2px;
+}
+
+.detail-add-cart {
+    margin-top : 90px;
+}
+
+/* ---------------------Single Product Page Design----------------------- */
+
+
