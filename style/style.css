@@ -359,6 +359,8 @@
 
 /* ---------------------Single Product Page Design----------------------- */
 
+
+
 .carousel-customize > .carousel-item > img {
     height : 500px;
     object-fit : cover;
@@ -383,6 +385,16 @@
 .detail-add-cart {
     margin-top : 90px;
 }
+
+.star-block >  i {
+    font-size : 25px; 
+    color : gold; 
+    cursor : pointer;
+}
+
+
+//Product Review
+
 
 /* ---------------------Single Product Page Design----------------------- */
 
