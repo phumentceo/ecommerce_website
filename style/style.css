@@ -363,7 +363,6 @@
 
 .carousel-customize > .carousel-item > img {
     height : 500px;
-    object-fit : cover;
 }
 
 .small-product {
@@ -371,9 +370,40 @@
     cursor : pointer;
 }
 
+
+
 .small-product:hover {
     opacity : 1;
 }
+
+
+@media screen and (min-width: 760px) and (max-width: 1000px) {
+
+    .carousel-customize > .carousel-item > img {
+        height : 680px;
+    }
+
+    .details {
+        padding : 0px;
+    }
+}
+
+/* Mobiles Device */
+@media screen and (min-width: 320px) and (max-width: 759px) {
+
+    .details {
+        padding : 0px;
+    }
+
+    .small-product  img {
+        height : 60px !important;
+    }
+}
+
+
+
+
+
 
 .color {
     padding : 18px;
@@ -383,7 +413,7 @@
 }
 
 .detail-add-cart {
-    margin-top : 90px;
+    margin-top : 85px;
 }
 
 .star-block >  i {
@@ -395,7 +425,4 @@
 
 //Product Review
 
-
 /* ---------------------Single Product Page Design----------------------- */
-
-
